@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Navbar from './components/Navbar';
-import Header from './components/Header';
-import Portraits from './components/Portraits';
+import Navbar from './components/Navbar/index.js';
+import Header from './components/Header/index.js';
+import Portraits from './components/Portraits/index.js';
 import presidents from './presidents.json';
 
 class App extends Component {
@@ -17,11 +17,19 @@ class App extends Component {
   render() {
     // console.log(this.state.presidents)
     return (
-      <div className="container">
-        <div className="row">
-          <Portraits presidents={ this.state.presidents } key={this.state.presidents.id} />
+      <div className="container-fluid">
+        <Navbar />
+        <Header />
+        <div>
+
         </div>
+        <main className="container px-5">
+          <div className="row p-5">
+            <Portraits presidents={ this.state.presidents } />
+          </div>
+        </main>
       </div>
+      
     )
   }
 }
