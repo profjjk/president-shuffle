@@ -12,6 +12,7 @@ class App extends Component {
     prevSelections: []
   };
 
+  // Rearrange portraits on game board.
   shufflePresidents = () => {
     let presidents = this.state.presidents;
     for (let i = presidents.length - 1; i > 0; i--) {
@@ -23,10 +24,7 @@ class App extends Component {
     this.setState({ presidents: presidents })
   }
 
-  updateScore = () => {
-
-  }
-
+  // Record player's choice & update scores.
   playerChoice = (id) => {
     let selected = this.state.prevSelections;
     let score = this.state.score;
@@ -48,6 +46,7 @@ class App extends Component {
     this.setState({ prevSelections: selected, score: score, highScore: highScore });
   }
 
+  // Consolidate all functions into event listener.
   handleClick = event => {
     event.preventDefault();
     let id = event.target.getAttribute('data-id');
