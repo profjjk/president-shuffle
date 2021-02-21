@@ -19,7 +19,7 @@ class App extends Component {
     return (
       <div className="container">
         <div className="row">
-          <Portraits presidents={ this.state.presidents } />
+          <Portraits presidents={ this.state.presidents } key={this.state.presidents.id} />
         </div>
       </div>
     )

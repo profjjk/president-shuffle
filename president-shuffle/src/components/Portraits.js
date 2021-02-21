@@ -6,7 +6,9 @@ class Portraits extends Component {
     const presidents = this.props.presidents;
     console.log(presidents);
     return presidents.map(president => {
-      <h1>{ president.name }</h1>
+      <div className="col-3">
+        <h1>{ president.name }</h1>
+      </div>
     })
   }
 }
