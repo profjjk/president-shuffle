@@ -11,7 +11,7 @@ class Portraits extends Component {
           src={president.image} 
           alt={president.name} 
           data-id={president.id}
-          onClick={this.props.shufflePresidents }
+          onClick={ this.props.handleClick }
         />
       </div>
     ))
