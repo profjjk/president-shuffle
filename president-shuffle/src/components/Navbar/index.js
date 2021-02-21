@@ -3,7 +3,7 @@ import "./style.css";
 
 function Navbar(props) {
   return (
-    <div className='row sticky-top d-flex align-items-center w-100' id='score-card'>
+    <div className='row sticky-top d-flex align-items-center w-100 p-3' id='score-card'>
       <div className='col-4'>
         <h3 className='text-center'>Shuffle Game</h3>
       </div>
