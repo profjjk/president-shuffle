@@ -8,7 +8,8 @@ class App extends Component {
   state = {
     presidents: presidents,
     score: 0,
-    highScore: 0
+    highScore: 0,
+    prevSelections: []
   };
 
   shufflePresidents = () => {
@@ -27,29 +28,24 @@ class App extends Component {
   }
 
   playerChoice = (id) => {
-    // THIS IS WHAT I WANT:
-    // When a player selects a portrait (refer to handleClick function below) the data-id is added to the tracker object. If the id already exists in the tracker (meaning they already selected it) then the score is set to 0 and the tracker is cleared out. Otherwise, the new id is added and the score is incremented by 1 point.
-    // THIS IS WHAT'S HAPPENING:
-    // The tracker is always cleared out and only show the last choice. The values of score and highScore are always 1. What is missing from my logic?
-    const tracker = {}
-    let score = 0;
+    let selected = this.state.prevSelections;
+    let score = this.state.score;
     let highScore = this.state.highScore;
-    
-    if (tracker[id]) {
+
+    if (selected.includes(id)) {
+      selected = [];
       score = 0;
-      tracker = {};
     } else {
+      selected.push(id);
       score += 1;
-      tracker[id] = id;
     }
     if (score > highScore) {
       highScore = score;
     }
-    console.log(tracker);
+    console.log(selected);
     console.log(score);
     console.log(highScore);
-
-    this.setState({ score: score, highScore: highScore });
+    this.setState({ prevSelections: selected, score: score, highScore: highScore });
   }
 
   handleClick = event => {
@@ -63,7 +59,8 @@ class App extends Component {
     return (
       <div className="container-fluid">
         <Navbar 
-          updateScore= { this.updateScore }
+          score={ this.state.score }
+          highScore={ this.state.highScore }
         />
         <Header />
         <main className="container px-5">

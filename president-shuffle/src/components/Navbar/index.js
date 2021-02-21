@@ -14,8 +14,8 @@ class Navbar extends Component {
         </div>
         <div className='col-4'>
           <h4 className='text-center'>
-            Score: <span id='score'>0</span> |
-            Top Score: <span id='highScore'>0</span>
+            Score: <span id='score'>{ this.props.score }</span> |
+            Top Score: <span id='highScore'>{ this.props.highScore }</span>
           </h4>
         </div>
       </div>
