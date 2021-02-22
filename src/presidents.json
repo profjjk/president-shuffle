@@ -2,73 +2,73 @@
   {
     "id": 1,
     "name": "Franklin D. Roosevelt",
-    "image": "/img/fdr.jpg",
+    "image": "/president-shuffle/img/fdr.jpg",
     "selected": false
   },
   {
     "id": 2,
     "name": "Ulysses S. Grant",
-    "image": "/img/grant.jpg",
+    "image": "president-shuffle/img/grant.jpg",
     "selected": false
   },
   {
     "id": 3,
     "name": "Dwight D. Eisenhower",
-    "image": "/img/ike.jpg",
+    "image": "president-shuffle/img/ike.jpg",
     "selected": false
   },
   {
     "id": 4,
     "name": "Thomas Jefferson",
-    "image": "/img/jefferson.jpg",
+    "image": "president-shuffle/img/jefferson.jpg",
     "selected": false
   },
   {
     "id": 5,
     "name": "John F. Kennedy",
-    "image": "/img/jfk.jpg",
+    "image": "president-shuffle/img/jfk.jpg",
     "selected": false
   },
   {
     "id": 6,
     "name": "Lyndon B. Johnson",
-    "image": "/img/lbj.jpg",
+    "image": "president-shuffle/img/lbj.jpg",
     "selected": false
   },
   {
     "id": 7,
     "name": "Abraham Lincoln",
-    "image": "/img/lincoln.jpg",
+    "image": "president-shuffle/img/lincoln.jpg",
     "selected": false
   },
   {
     "id": 8,
     "name": "Barack Obama",
-    "image": "/img/obama.jpg",
+    "image": "president-shuffle/img/obama.jpg",
     "selected": false
   },
   {
     "id": 9,
     "name": "Theodore Roosevelt",
-    "image": "/img/teddy.jpg",
+    "image": "president-shuffle/img/teddy.jpg",
     "selected": false
   },
   {
     "id": 10,
     "name": "Harry S. Truman",
-    "image": "/img/truman.jpg",
+    "image": "president-shuffle/img/truman.jpg",
     "selected": false
   },
   {
     "id": 11,
     "name": "George Washington",
-    "image": "/img/washington.jpg",
+    "image": "president-shuffle/img/washington.jpg",
     "selected": false
   },
   {
     "id": 12,
     "name": "Woodrow Wilson",
-    "image": "/img/wilson.jpg",
+    "image": "president-shuffle/img/wilson.jpg",
     "selected": false
   }
 ]
