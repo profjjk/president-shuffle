@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/president-shuffle/static/css/main.f247b8b0.chunk.css",
+    "main.js": "/president-shuffle/static/js/main.722c24fd.chunk.js",
+    "main.js.map": "/president-shuffle/static/js/main.722c24fd.chunk.js.map",
+    "runtime-main.js": "/president-shuffle/static/js/runtime-main.12936feb.js",
+    "runtime-main.js.map": "/president-shuffle/static/js/runtime-main.12936feb.js.map",
+    "static/js/2.97d02166.chunk.js": "/president-shuffle/static/js/2.97d02166.chunk.js",
+    "static/js/2.97d02166.chunk.js.map": "/president-shuffle/static/js/2.97d02166.chunk.js.map",
+    "index.html": "/president-shuffle/index.html",
+    "static/css/main.f247b8b0.chunk.css.map": "/president-shuffle/static/css/main.f247b8b0.chunk.css.map",
+    "static/js/2.97d02166.chunk.js.LICENSE.txt": "/president-shuffle/static/js/2.97d02166.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12936feb.js",
+    "static/js/2.97d02166.chunk.js",
+    "static/css/main.f247b8b0.chunk.css",
+    "static/js/main.722c24fd.chunk.js"
+  ]
+}
