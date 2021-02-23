@@ -40,9 +40,6 @@ class App extends Component {
     if (score > highScore) {
       highScore = score;
     }
-    console.log(selected);
-    console.log(score);
-    console.log(highScore);
     this.setState({ prevSelections: selected, score: score, highScore: highScore });
   }
 
